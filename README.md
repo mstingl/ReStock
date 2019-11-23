@@ -1,6 +1,6 @@
 
 # ReStock.js <img src="https://cdn.voltane.eu/assets/minecraft/chest_animated.gif" height="50px" style="transform:translateY(-18px)"/>
-__A minimal Loottable Chest Refill craftscript__
+__A minimal Loottable Chest or universal Container Refill craftscript__
 
 ***
 
@@ -21,7 +21,7 @@ __[<img src="https://cdn.voltane.eu/assets/minecraft/grass_block.png" width="20p
 
 ## Prerequisites
 _You will need:_
-- A [.json file with an array of chest coordinates](https://minecraft.gamepedia.com/Loot_table) that you want to refill.
+- A [.json file with an array of container coordinates](https://minecraft.gamepedia.com/Loot_table) that you want to refill.
 - A [.json loottable](https://minecraft.gamepedia.com/Loot_table) (if you want to use a custom loottable).
 - The [WorldEdit](https://enginehub.org/worldedit/) Plugin.
 - The [Rhino 1.7.11 (or higher)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino) Library.
@@ -35,7 +35,7 @@ _You will need:_
    - to the `mods/` folder on other platforms.
 1. Place the craftscript to `%serverroot%/config/worldedit/craftscripts/`.
 1. In the same directory create a folder called `restock`.
-1. and place your .json chest array file into that folder (name it `default.json` if you want to omit the filename on command execution).
+1. and place your .json container array file into that folder (name it `default.json` if you want to omit the filename on command execution).
 
 <br/>
 
@@ -48,14 +48,14 @@ __namespace/lootTable [[?]](mcforge.readthedocs.io/en/latest/items/loot_tables/)
 - eg. `mctools:chests/loot_table`
 
 __forceReplace [true|false]:__
-- If blocks that aren't chests should become chests
+- If blocks that aren't the target container should become the target container
 ```diff
 - BE VERY CAREFUL WITH THIS
 - TRIPPLE CHECK IF YOUR COORDS ARE CORRECT
 - IT CAN'T BE UNDONE!
 ```
 __coordFile [restock/loot]:__
-- The file with coordinates of chests to fill (without `.json`)
+- The file with coordinates of containers to fill (without `.json`)
 - You can leave out this argument if your file is called `default.json`.
 - Currently the json looks like this: \
 `[[54, -70, 28, -118],...] or [[TARGET ID, X, Y, Z],...]`
