@@ -58,7 +58,7 @@ __coordFile [restock/loot]:__
 - The file with coordinates of chests to fill (without `.json`)
 - You can leave out this argument if your file is called `default.json`.
 - Currently the json looks like this: \
-`[[54, -70, 28, -118],...] or [[ID, X, Y, Z],...]`
+`[[54, -70, 28, -118],...] or [[TARGET ID, X, Y, Z],...]`
 - If you need to generate this file take a look at [this project](#).
 
 ***
