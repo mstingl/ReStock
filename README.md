@@ -1,5 +1,5 @@
 
-# ReStock.js <img src="https://cdn.voltane.eu/assets/minecraft/chest_animated.gif" height="50px" style="transform:translateY(-8px)"/>
+# ReStock.js <img src="https://cdn.voltane.eu/assets/minecraft/chest_animated.gif" height="50px" style="transform:translateY(-18px)"/>
 __A minimal Loottable Chest Refill craftscript__
 
 ***
