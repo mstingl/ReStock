@@ -59,6 +59,8 @@ __coordFile [restock/loot]:__
 - You can leave out this argument if your file is called `default.json`.
 - Currently the json looks like this: \
 `[[54, -70, 28, -118],...] or [[TARGET ID, X, Y, Z],...]`
+- Target ID is the Container that you want to fill and/or place at the position
+- (I personly only recommend 54 which is a normal chest, but do as you please)
 - If you need to generate this file take a look at [this project](#).
 
 ***
