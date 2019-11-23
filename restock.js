@@ -28,20 +28,22 @@ function changeBaseBlock(_coordArray, _forceReplace) {
     currently the json looks like this:
     [[54, -70, 28, -118],...]
     or
-    [[ID, X, Y, Z],...]
+    [[TARGET, X, Y, Z],...]
     */
     var counter = 0;
 
     _coordArray = _coordArray[0];
+    
 
     _coordArray.forEach(coord => {
 
 
         var position = new BlockVector(coord[1], coord[2], coord[3]);
         var baseBlock = currentSession.getBlock(position);
+        var targetContainer = coord[0];
 
 
-        if (baseBlock.id != 54) {
+        if (baseBlock.id != targetContainer) {
             if (!_forceReplace) {
                 //not a chest, but forcereplace is false, so dont replace
                 player.print('§6skipping: '+ baseBlock.id +" | "+ position + ' isnt a chest! forceReplace is '+_forceReplace);
@@ -49,7 +51,7 @@ function changeBaseBlock(_coordArray, _forceReplace) {
             } else {
                 //not a chest, forcereplace is true, so replace'
                 player.print('§creplacing: '+ baseBlock.id +" | "+ position + ' with Chest!');
-                baseBlock = new BaseBlock(54);
+                baseBlock = new BaseBlock(targetContainer);
                 nbtBuilder = CompoundTagBuilder.create();
             }
         } else {
@@ -63,7 +65,7 @@ function changeBaseBlock(_coordArray, _forceReplace) {
             nbtBuilder = nbtData.createBuilder();
         }
 
-        //chest has been opened and will therefore be refilled
+        //chest/container has been opened and will therefore be refilled
         /*creating compoundbuilder from existing nbt data*/
 
         nbtBuilder.putString('LootTable', lootTable);
@@ -71,6 +73,6 @@ function changeBaseBlock(_coordArray, _forceReplace) {
         currentSession.rawSetBlock(position, baseBlock);
         counter++;
     });
-    player.print('§2finished: ' + counter + ' Chests have been filled.')
+    player.print('§2finished: ' + counter + ' Containers have been filled.')
 }
 
