@@ -14,14 +14,11 @@ __[<img src="https://cdn.voltane.eu/assets/discord/nitro-boost.svg" width="20px"
 
 __[<img src="https://cdn.voltane.eu/assets/minecraft/grass_block.png" width="20px"/> Join our modded minecraft server ](https://mc.play.voltane.eu/)__
 
-
 ***
-
-
 
 ## Prerequisites
 _You will need:_
-- A [.json file with an array of container coordinates](https://minecraft.gamepedia.com/Loot_table) that you want to refill.
+- A [.json file with an array of container coordinates](https://github.com/Voltane-EU/Block-Finder) that you want to refill.
 - A [.json loottable](https://minecraft.gamepedia.com/Loot_table) (if you want to use a custom loottable).
 - The [WorldEdit](https://enginehub.org/worldedit/) Plugin.
 - The [Rhino 1.7.11 (or higher)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino) Library.
@@ -61,6 +58,6 @@ __coordFile [restock/loot]:__
 `[[54, -70, 28, -118],...] or [[TARGET ID, X, Y, Z],...]`
 - Target ID is the Container that you want to fill and/or place at the position
 - (I personly only recommend 54 which is a normal chest, but do as you please)
-- If you need to generate this file take a look at [this project](#).
+- If you need to generate this file take a look at [this project](https://github.com/Voltane-EU/Block-Finder).
 
-***
+<br/>
