@@ -49,7 +49,7 @@ __namespace/lootTable [[?]](mcforge.readthedocs.io/en/latest/items/loot_tables/)
 
 __forceReplace [true|false]:__
 - If blocks that aren't chests should become chests
-- **BE VERY CAREFUL WITH THIS & TRIPPLE CHECK IF YOUR COORDS ARE CORRECT, IT CAN'T BE UNDONE!**
+- <span style="color: red;">**BE VERY CAREFUL WITH THIS & TRIPPLE CHECK IF YOUR COORDS ARE CORRECT, IT CAN'T BE UNDONE!**</span>
 
 __coordFile [restock/loot]:__
 - The file with coordinates of chests to fill (without `.json`)
