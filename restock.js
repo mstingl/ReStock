@@ -66,7 +66,7 @@ function changeBaseBlock(_coordArray, _forceReplace) {
         }
 
         //chest/container has been opened and will therefore be refilled
-        /*creating compoundbuilder from existing nbt data*/
+        /*creating compoundbuilder from nbt data*/
 
         nbtBuilder.putString('LootTable', lootTable);
         baseBlock.setNbtData(nbtBuilder.build());
