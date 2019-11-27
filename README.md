@@ -18,52 +18,27 @@ __[<img src="https://cdn.voltane.eu/assets/minecraft/grass_block.png" width="20p
 
 
 <div itemscope itemtype="https://schema.org/FAQPage">
-<div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-## Prerequisites
-<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-<p itemprop="text">
-<em>You will need:</em>
-<ul>
-<li>A <a href="https://github.com/Voltane-EU/Block-Finder">.json file with an array of container coordinates</a>() that you want to refill.</li>
-<li>A <a href="https://minecraft.gamepedia.com/Loot_table">.json loottable</a> (if you want to use a custom loottable).</li>
-<li>The <a href="https://enginehub.org/worldedit/">WorldEdit</a> Plugin.</li>
-<li>The <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino">Rhino 1.7.11 (or higher)</a> Library.</li>
-</ul>
-</p>
-</div>
-</div>
 
 <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-<input id="tab-two" type="radio" name="tabs-faq">
-<label itemprop="name" for="tab-two"><h2>Instructions</h2></label>
+<h2>Prerequisites</h2>
 <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
 <p itemprop="text">
-<ol>
-<li>Install WorldEdit on your Server.</li>
-<li>Extract the Rhino Library <code>lib/rhino-{version}.jar</code>.</li>
-<li>The <a href="https://enginehub.org/worldedit/">WorldEdit</a> Plugin.</li>
-<li>The <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino">Rhino 1.7.11 (or higher)</a> Library.</li>
-</ol>
-</p>
-</div>
-</div>
 
-</div>
-
-
-
-
-
-## Prerequisites
 _You will need:_
 - A [.json file with an array of container coordinates](https://github.com/Voltane-EU/Block-Finder) that you want to refill.
 - A [.json loottable](https://minecraft.gamepedia.com/Loot_table) (if you want to use a custom loottable).
 - The [WorldEdit](https://enginehub.org/worldedit/) Plugin.
 - The [Rhino 1.7.11 (or higher)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino) Library.
 
-<br/>
+</p>
+</div>
+</div>
 
-## Instructions
+<div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<h2>Instructions</h2>
+<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+<p itemprop="text">
+
 1. Install WorldEdit on your Server.
 1. Extract the Rhino Library `lib/rhino-{version}.jar`
    - to the `plugins/` or `plugins/WorldEdit` folder on bukkit.
@@ -72,9 +47,15 @@ _You will need:_
 1. In the same directory create a folder called `restock`.
 1. and place your .json container array file into that folder (name it `default.json` if you want to omit the filename on command execution).
 
-<br/>
+</p>
+</div>
+</div>
 
-## Usage
+<div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<h2>Usage</h2>
+<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+<p itemprop="text">
+
 _Command syntax:_\
 `/cs restock <namespace/lootTable> <forceReplace> <coordFile>`
 
@@ -98,4 +79,8 @@ __coordFile [restock/loot]:__
 - (I personly only recommend 54 which is a normal chest, but do as you please)
 - If you need to generate this file take a look at [this project](https://github.com/Voltane-EU/Block-Finder).
 
-<br/>
+</p>
+</div>
+</div>
+
+</div>
