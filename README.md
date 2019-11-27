@@ -1,5 +1,5 @@
 
-# ReStock.js <img src="https://cdn.voltane.eu/assets/minecraft/chest_animated.gif" height="50px" style="transform:translateY(-18px)"/>
+# ReStock.js <img src="https://cdn.voltane.eu/assets/minecraft/chest_animated.gif" height="50px"/>
 __A minimal Loottable Chest or universal Container Refill craftscript__
 
 ***
@@ -15,6 +15,45 @@ __[<img src="https://cdn.voltane.eu/assets/discord/nitro-boost.svg" width="20px"
 __[<img src="https://cdn.voltane.eu/assets/minecraft/grass_block.png" width="20px"/> Join our modded minecraft server ](https://mc.play.voltane.eu/)__
 
 ***
+
+
+<div itemscope itemtype="https://schema.org/FAQPage">
+<div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<input id="tab-one" type="radio" name="tabs-faq">
+<label itemprop="name" for="tab-one"><h2>Prerequisites</h2></label>
+<div itemprop="acceptedAnser" itemscope itemtype="https://schema.org/Answer">
+<p itemprop="text">
+<em>You will need:</em>
+<ul>
+<li>A <a href="https://github.com/Voltane-EU/Block-Finder">.json file with an array of container coordinates</a>() that you want to refill.</li>
+<li>A <a href="https://minecraft.gamepedia.com/Loot_table">.json loottable</a> (if you want to use a custom loottable).</li>
+<li>The <a href="https://enginehub.org/worldedit/">WorldEdit</a> Plugin.</li>
+<li>The <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino">Rhino 1.7.11 (or higher)</a> Library.</li>
+</ul>
+</p>
+</div>
+</div>
+
+<div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
+<input id="tab-two" type="radio" name="tabs-faq">
+<label itemprop="name" for="tab-two"><h2>Instructions</h2></label>
+<div itemprop="acceptedAnser" itemscope itemtype="https://schema.org/Answer">
+<p itemprop="text">
+<ol>
+<li>Install WorldEdit on your Server.</li>
+<li>Extract the Rhino Library <code>lib/rhino-{version}.jar</code>.</li>
+<li>The <a href="https://enginehub.org/worldedit/">WorldEdit</a> Plugin.</li>
+<li>The <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino">Rhino 1.7.11 (or higher)</a> Library.</li>
+</ol>
+</p>
+</div>
+</div>
+
+</div>
+
+
+
+
 
 ## Prerequisites
 _You will need:_
