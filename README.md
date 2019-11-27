@@ -22,7 +22,7 @@ __[<img src="https://cdn.voltane.eu/assets/minecraft/grass_block.png" width="20p
 <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
 <h2>Prerequisites</h2>
 <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-<p itemprop="text">
+<div itemprop="text">
 
 _You will need:_
 - A [.json file with an array of container coordinates](https://github.com/Voltane-EU/Block-Finder) that you want to refill.
@@ -30,14 +30,14 @@ _You will need:_
 - The [WorldEdit](https://enginehub.org/worldedit/) Plugin.
 - The [Rhino 1.7.11 (or higher)](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino) Library.
 
-</p>
+</div>
 </div>
 </div>
 
 <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
 <h2>Instructions</h2>
 <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-<p itemprop="text">
+<div itemprop="text">
 
 1. Install WorldEdit on your Server.
 1. Extract the Rhino Library `lib/rhino-{version}.jar`
@@ -46,14 +46,15 @@ _You will need:_
 1. Place the craftscript to `%serverroot%/config/worldedit/craftscripts/`.
 1. In the same directory create a folder called `restock`.
 1. and place your .json container array file into that folder (name it `default.json` if you want to omit the filename on command execution).
-</p>
+
+</div>
 </div>
 </div>
 
 <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
 <h2>Usage</h2>
 <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-<p itemprop="text">
+<div itemprop="text">
 
 _Command syntax:_\
 `/cs restock <namespace/lootTable> <forceReplace> <coordFile>`
@@ -78,7 +79,7 @@ __coordFile [restock/loot]:__
 - (I personly only recommend 54 which is a normal chest, but do as you please)
 - If you need to generate this file take a look at [this project](https://github.com/Voltane-EU/Block-Finder).
 
-</p>
+</div>
 </div>
 </div>
 
