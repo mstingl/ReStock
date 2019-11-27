@@ -38,6 +38,7 @@ _You will need:_
 <h2>Instructions</h2>
 <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
 <p itemprop="text">
+
 1. Install WorldEdit on your Server.
 1. Extract the Rhino Library `lib/rhino-{version}.jar`
    - to the `plugins/` or `plugins/WorldEdit` folder on bukkit.
