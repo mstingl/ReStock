@@ -38,7 +38,6 @@ _You will need:_
 <h2>Instructions</h2>
 <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
 <p itemprop="text">
-
 1. Install WorldEdit on your Server.
 1. Extract the Rhino Library `lib/rhino-{version}.jar`
    - to the `plugins/` or `plugins/WorldEdit` folder on bukkit.
@@ -46,7 +45,6 @@ _You will need:_
 1. Place the craftscript to `%serverroot%/config/worldedit/craftscripts/`.
 1. In the same directory create a folder called `restock`.
 1. and place your .json container array file into that folder (name it `default.json` if you want to omit the filename on command execution).
-
 </p>
 </div>
 </div>
