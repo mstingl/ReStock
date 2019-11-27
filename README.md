@@ -19,9 +19,8 @@ __[<img src="https://cdn.voltane.eu/assets/minecraft/grass_block.png" width="20p
 
 <div itemscope itemtype="https://schema.org/FAQPage">
 <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-<input id="tab-one" type="radio" name="tabs-faq">
-<label itemprop="name" for="tab-one"><h2>Prerequisites</h2></label>
-<div itemprop="acceptedAnser" itemscope itemtype="https://schema.org/Answer">
+## Prerequisites
+<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
 <p itemprop="text">
 <em>You will need:</em>
 <ul>
@@ -37,7 +36,7 @@ __[<img src="https://cdn.voltane.eu/assets/minecraft/grass_block.png" width="20p
 <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
 <input id="tab-two" type="radio" name="tabs-faq">
 <label itemprop="name" for="tab-two"><h2>Instructions</h2></label>
-<div itemprop="acceptedAnser" itemscope itemtype="https://schema.org/Answer">
+<div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
 <p itemprop="text">
 <ol>
 <li>Install WorldEdit on your Server.</li>
