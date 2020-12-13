@@ -6,7 +6,9 @@ __A minimal Loottable Chest or universal Container Refill craftscript__
 
 __Want to support us?__
 
-__[☕ Donate a cup of coffee on patreon ](https://www.patreon.com/voltane_eu)__
+__[☕ Donate a cup of coffee on Ko-Fi ](https://ko-fi.com/voltane_eu)__
+
+__[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Patreon_logo.svg/1024px-Patreon_logo.svg.png" width="20px" height="25px"/> Help us out on Patreon ](https://ko-fi.com/voltane_eu)__
 
 __[<img src="https://cdn.voltane.eu/logo/icon/icon-hexagon.svg" width="20px" height="25px"/> Contribute to our open-source projects](https://github.com/Voltane-EU)__
 
